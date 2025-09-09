@@ -84,3 +84,20 @@
       border-top: 1px solid #888; 
       margin-top: 2rem;
     }
+  .skip-link {
+  position: absolute;
+  top: -40px; /* fuera de la pantalla */
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0; /* se muestra solo cuando recibe foco */
+}
+  a:focus, button:focus {
+      outline: 3px solid #5a67d8;
+      outline-offset: 2px;
+    }
