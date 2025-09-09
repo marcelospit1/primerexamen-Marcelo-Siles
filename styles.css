@@ -101,3 +101,20 @@
       outline: 3px solid #5a67d8;
       outline-offset: 2px;
     }
+@media (max-width: 480px) {
+  .banner {
+    display: none; /* ocultar banner en móvil */
+  }
+
+  ul.productos {
+    grid-template-columns: 1fr; /* 1 producto por fila */
+  }
+
+  header {
+    background-color: red; /* fondo del header rojo */
+  }
+
+  footer {
+    color: blue; /* solo el texto azul */
+  }
+}
